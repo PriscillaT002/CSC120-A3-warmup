@@ -101,6 +101,17 @@ public class ConversationIntro {
   
   /** Returns true if its input is one of:  .,?! */
   public boolean isPunctuation(String s) {
+    if (s.equals(anobject: '.')){
+      return true;
+      else if (s.equals(anObject:',')){
+        return true;
+      }
+      else if (s.equals(anObject: "?")){
+        return true;
+      }
+      else if (s.equals(anObject: "!")){
+        return true;
+    }
     return false;
   }
 
