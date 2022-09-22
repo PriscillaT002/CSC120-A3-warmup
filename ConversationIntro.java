@@ -121,6 +121,11 @@ public class ConversationIntro {
   
   /** Returns its input, unless it is "I" or "you", which switch */
   public String mirrorWord(String s) {
+    if (s.equals(anObject: "I")){
+      return "you";
+    } else if (s.equals(anObject: "you")){
+      return "I";
+    }
     return s;
   }
 
