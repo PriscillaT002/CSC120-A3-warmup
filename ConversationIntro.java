@@ -30,7 +30,7 @@ public class ConversationIntro {
   
   /** Returns the square of its input */
   public int squared(int n) {
-    return 0;
+    return n*n;
   }
 
   /*
@@ -39,7 +39,7 @@ public class ConversationIntro {
   
   /** Divides its input by seven, dropping remainders */
   public int intDivideBy7(int n) {
-    return 0;
+    return n/7;
   }
 
   /*
