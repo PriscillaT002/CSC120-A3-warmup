@@ -39,7 +39,7 @@ public class ConversationIntro {
   
   /** Divides its input by seven, dropping remainders */
   public int intDivideBy7(int n) {
-    return n/7;
+    return n/7.0;
   }
 
   /*
@@ -48,7 +48,7 @@ public class ConversationIntro {
   
   /** Divides its input by 7 */
   public double doubleDivideBy7(int n) {
-    return 0;
+    return n/7;
   }
 
   /*
@@ -63,11 +63,11 @@ public class ConversationIntro {
   /** Returns true if its input is prime */
   public static boolean isPrime(int n) {
     boolean isPrime = (n > 1); // one, zero, and negatives not prime
-    /*for (int i = 2; i <= Math.sqrt(n); i++) {
+    for (int i = 2; i <= Math.sqrt(n); i++) {
         if (n%i == 0) {
             isPrime = false;
         }
-    }*/
+    }
     return isPrime;
   }
 
@@ -77,7 +77,7 @@ public class ConversationIntro {
   
   /** Returns true if its input is even */
   public boolean isEven(int n) {
-    return false;
+    return (n%2 == 0);
   }
 
   /*
@@ -91,10 +91,9 @@ public class ConversationIntro {
    */
   
   /** Returns true if its input is a comma */
-  public static boolean isComma(String s) {
-    //return s.equals(",");
-    return (s == ",");
-  }
+  public static boolean isComma(string s) {
+    return s.equals(anObject);
+  }                                                                                       
 
   /*
    *  Exercise 6:  isPunctuation

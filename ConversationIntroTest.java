@@ -56,6 +56,17 @@ public class ConversationIntroTest {
     System.out.println("Passed isEven test.");
 	}
       	
+
+	
+	@Test
+	public void Exercise_5() {
+		ConversationIntro ci = new ConversationIntro();
+		assertEquals("isOdd", true, ci.isOdd(14));
+		assertEquals("isOdd", false, ci.isOdd(14));
+    System.out.println("Passed isOdd test.");
+	}
+
+
 	@Test
 	public void Example_C() {
 		ConversationIntro ci = new ConversationIntro();
